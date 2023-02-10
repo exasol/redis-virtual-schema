@@ -4,7 +4,7 @@ This Virtual Schema Adapter maps the key value store [Redis](http://redis.io/) a
 
 It is a very simple Adapter for demonstration purposes, but still tries to address a real use case.
 
-You can directly jump into the Adapter Code if you like: [python-redis-adapter.sql](https://github.com/EXASOL/virtual-schema-jdbc-adapter/blob/master/python-redis-adapter/python-redis-adapter.sql)
+You can directly jump into the Adapter Code if you like: [python-redis-adapter.sql](python-redis-adapter.sql)
 
 This Adapter aims to demonstrate
 
@@ -21,7 +21,7 @@ This Adapter is NOT meant
 
 First start Redis and make sure that all EXASolution nodes can access Redis.
 
-Then run all statements in the [python-redis-adapter.sql](https://github.com/EXASOL/virtual-schema-jdbc-adapter/blob/master/python-redis-adapter/python-redis-adapter.sql) file to create the Adapter Script and the UDFs.
+Then run all statements in the [python-redis-adapter.sql](python-redis-adapter.sql) file to create the Adapter Script and the UDFs.
 
 You can now use the Virtual Schema as follows:
 
